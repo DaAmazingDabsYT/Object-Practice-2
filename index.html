@@ -1,0 +1,25 @@
+<html>
+        <body></body>
+        <style></style>
+        <script>function car(carname,carmodel,carprice){
+this.carname=carname
+this.carmodel=carmodel
+this.carprice=carprice
+this.details=function(){
+    return `The car name is ${this.carname} and the model is ${this.carmodel} and the price is ${carprice}`
+}
+}
+let  car1=new car("Tesla", "Model X", 48000)
+let  car2=new car("Ferrari", "Purosangue", 395000)
+let  car3=new car("Bugatti", "Chiron", 3000000)
+console.log(car1)
+console.log(car2)
+console.log(car3)
+console.log(car1.details())
+console.log(car2.details())
+console.log(car3.details())
+let student=new Object()
+console.log(student)
+let student1=new Object()
+console.log(student1)</script>
+      </html>
